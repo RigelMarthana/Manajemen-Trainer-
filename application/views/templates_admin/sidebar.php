@@ -33,8 +33,8 @@
             </a>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="<?php echo base_url('admin/data_trainer')?>">Data Trainer</a>
-                    <a class="collapse-item" href="<?php echo base_url('admin/data_jabatan')?>">Data Jabatan</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/dataTrainer')?>">Data Trainer</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/dataJabatan')?>">Data Jabatan</a>
                 </div>
             </div>
         </li>
@@ -49,8 +49,8 @@
             <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="<?php echo base_url('admin/data_absensi')?>">Data Absensi</a>
-                    <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian')?>">Data Gaji</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/dataAbsensi')?>">Data Absensi</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/dataPenggajian')?>">Data Gaji</a>
                 </div>
             </div>
         </li>
@@ -65,9 +65,9 @@
             </a>
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="<?php echo base_url('admin/laporan_gaji')?>">Laporan Gaji</a>
-                    <a class="collapse-item" href="<?php echo base_url('admin/laporan_absensi')?>">Laporan Absensi</a>
-                    <a class="collapse-item" href="<?php echo base_url('admin/slip_gaji')?>">Slip Gaji</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/laporanGaji')?>">Laporan Gaji</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/laporanAbsensi')?>">Laporan Absensi</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/slipGaji')?>">Slip Gaji</a>
                 </div>
             </div>
         </li>
