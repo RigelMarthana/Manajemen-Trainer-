@@ -34,6 +34,7 @@
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="<?php echo base_url('admin/data_trainer')?>">Data Trainer</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/data_jabatan')?>">Data Jabatan</a>
                 </div>
             </div>
         </li>
