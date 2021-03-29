@@ -9,7 +9,7 @@
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
            
-            <div class="sidebar-brand-text mx-3">Manajemen Trainer</div>
+            <div class="sidebar-brand-text mx-3">App Penggajian Pegawai</div>
         </a>
 
         <!-- Divider -->
@@ -33,7 +33,7 @@
             </a>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="<?php echo base_url('admin/dataTrainer')?>">Data Trainer</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/dataTrainer')?>">Data Pegawai</a>
                     <a class="collapse-item" href="<?php echo base_url('admin/dataJabatan')?>">Data Jabatan</a>
                 </div>
             </div>
@@ -50,6 +50,7 @@
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="<?php echo base_url('admin/dataAbsensi')?>">Data Absensi</a>
+                    <a class="collapse-item" href="<?php echo base_url('admin/potonganGaji')?>">Setting Potongan Gaji</a>
                     <a class="collapse-item" href="<?php echo base_url('admin/dataPenggajian')?>">Data Gaji</a>
                 </div>
             </div>

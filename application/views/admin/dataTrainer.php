@@ -14,7 +14,7 @@
         <tr>
             <th class="text-center">No</th>
             <th class="text-center">Nik</th>
-            <th class="text-center">Nama Trainer</th>
+            <th class="text-center">Nama pegawai</th>
             <th class="text-center">Jenis Kelamin</th>
             <th class="text-center">Jabatan</th>
             <th class="text-center">Tanggal Masuk</th>

@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Nama Trainer</label>
+                    <label>Nama pegawai</label>
                     <input type="text" name="nama_trainer" class="form-control" value="<?php echo $t->nama_trainer ?>">
                     <?php echo form_error('nama_trainer','<div class="text-small text-danger"> </div>') ?>
                 </div>
@@ -54,8 +54,8 @@
                     <label>Status</label>
                     <select name="status" class="form-control">
                         <option value="<?php echo $t->status ?>"><?php echo $t->status ?></option>
-                        <option value="Trainer Tetap">Trainer Tetap</option>
-                        <option value="Trainer Tidak Tetap">Trainer Tidak Tetap</option>
+                        <option value="Pegawai Tetap">Pegawai Tetap</option>
+                        <option value="Pegawai Tidak Tetap">Pegawai Tidak Tetap</option>
                     </select>
                     <?php echo form_error('status','<div class="text-small text-danger"> </div>') ?>
                 </div>

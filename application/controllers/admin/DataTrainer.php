@@ -3,7 +3,7 @@
 class dataTrainer extends CI_Controller {
     public function index()
     {
-        $data['title'] = "Data Trainer";
+        $data['title'] = "Data Pegawai";
         $data['trainer'] = $this->penggajianModel->get_data('data_trainer')->result();
         $this->load->view('templates_admin/header',$data);
         $this->load->view('templates_admin/sidebar');
