@@ -22,16 +22,9 @@
     </center>
 
     <?php 
-        if((isset($_GET['bulan']) && $_GET['bulan']!='') && (isset($_GET['tahun']) && $_GET['tahun']!='')){
-            $bulan = $_GET['bulan'];
-            $tahun = $_GET['tahun'];
-            $bulantahun = $bulan.$tahun;
-        }else{
-            $bulan = date('m');
-            $tahun = date('Y');
-            $bulantahun = $bulan.$tahun;
-        }
-    ?>
+        $bulan = $this->input->post('bulan');
+        $tahun = $this->input->post('tahun');
+        ?> 
 
     <table>
         <tr>

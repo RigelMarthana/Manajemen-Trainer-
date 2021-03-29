@@ -24,6 +24,18 @@
                 </div>
 
                 <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" class="form-control" value="<?php echo $t->username ?>">
+                    <?php echo form_error('username','<div class="text-small text-danger"> </div>') ?>
+                </div>
+
+                <div class="form-group">
+                    <label>password</label>
+                    <input type="password" name="password" class="form-control" value="<?php echo $t->password ?>">
+                    <?php echo form_error('password','<div class="text-small text-danger"> </div>') ?>
+                </div>
+
+                <div class="form-group">
                     <label>Jenis Kelamin</label>
                     <select name="jenis_kelamin" class="form-control">
                         <option value="<?php echo $t->jenis_kelamin ?>"><?php echo $t->jenis_kelamin ?></option>
@@ -63,6 +75,21 @@
                 <div class="form-group">
                     <label>Photo</label>
                     <input type="file" name="photo" class="form-control" >
+                </div>
+                
+                <div class="form-group">
+                    <label>Hak Akses</label>
+                    <select name="hak_akses" class="form-control">
+                        <option value="<?php echo $t->hak_akses?>">
+                                <?php if ($t->hak_akses=='1'){
+                                    echo "Admin";
+                                }else{
+                                    echo "Pegawai";
+                                }?>
+                        </option>
+                        <option value="1">Admin</option>
+                        <option value="2">Pegawai</option>
+                    </select>
                 </div>
 
                 <button type="submit" class="btn btn-primary mt-3">SIMPAN</button>

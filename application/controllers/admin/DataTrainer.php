@@ -34,6 +34,9 @@ class dataTrainer extends CI_Controller {
             $tanggal_masuk      = $this->input->post('tanggal_masuk');
             $jabatan            = $this->input->post('jabatan');
             $status             = $this->input->post('status');
+            $hak_akses             = $this->input->post('hak_akses');
+            $username             = $this->input->post('username');
+            $password             = md5($this->input->post('password'));
             $photo              = $_FILES['photo']['name'];
             if($photo='' ){}else{
                 $config ['upload_path'] = 'assets/photo';
@@ -53,6 +56,9 @@ class dataTrainer extends CI_Controller {
                 'jabatan'           => $jabatan,
                 'tanggal_masuk'     => $tanggal_masuk,
                 'status'            => $status,
+                'hak_akses'            => $hak_akses,
+                'username'            => $username,
+                'password'            => $password,
                 'photo'             => $photo,
             );
 
@@ -91,6 +97,9 @@ class dataTrainer extends CI_Controller {
             $tanggal_masuk      = $this->input->post('tanggal_masuk');
             $jabatan            = $this->input->post('jabatan');
             $status             = $this->input->post('status');
+            $hak_akses             = $this->input->post('hak_akses');
+            $username             = $this->input->post('username');
+            $password             = md5($this->input->post('password'));
             $photo              = $_FILES['photo']['name'];
             if($photo){
                 $config ['upload_path'] = 'assets/photo';
@@ -111,6 +120,9 @@ class dataTrainer extends CI_Controller {
                 'jabatan'           => $jabatan,
                 'tanggal_masuk'     => $tanggal_masuk,
                 'status'            => $status,
+                'username'            => $username,
+                'password'            => $password,
+                'hak_akses'            => $hak_akses,
             );
 
             $where = array(

@@ -58,15 +58,6 @@
                 <button type="submit" class="btn btn-primary mb-2 ml-auto"><i class="fas fa-eye"></i>
                 Tampilkan Data</button>
 
-                <?php if(count($gaji) > 0) { ?>
-                    <a href="<?php echo base_url('admin/dataPenggajian/cetakGaji?bulan='.$bulan),'&tahun='.$tahun ?>" class="btn btn-success mb-2 ml-3"><i class="fas fa-print"></i> Cetak Daftar Gaji</a>
-                <?php }else { ?>
-                    
-                    <button type="button" class="btn btn-success mb-2 ml-3" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-print"></i> Cetak Daftar Gaji
-                    </button>
-
-                <?php } ?>
                 
             </form>
 

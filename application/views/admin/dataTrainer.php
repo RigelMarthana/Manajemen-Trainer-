@@ -20,6 +20,7 @@
             <th class="text-center">Tanggal Masuk</th>
             <th class="text-center">Status</th>
             <th class="text-center">Photo</th>
+            <th class="text-center">Hak Akses</th>
             <th class="text-center">Action</th>
         </tr>
 
@@ -36,6 +37,15 @@
                 <td class="text-center">
                     <img src="<?php echo base_url().'assets/photo/'.$t->photo?>" width="50px" alt="">
                 </td>
+                
+
+                <?php if($t->hak_akses=='1'){ ?>
+                    <td class="text-center">ADMIN</td>
+                <?php }else{?>
+                    <td class="text-center">PEGAWAI</td>
+                    
+                <?php }?>
+                
                 <td>
                      <center>
                         <a class="btn btn-sm btn-primary" href="<?php echo base_url('admin/dataTrainer/updateData/'.$t->id_trainer); ?>">
