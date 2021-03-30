@@ -20,7 +20,7 @@
             <th class="text-center">Action</th>
         </tr>
         <?php $no=1; foreach($pot_gaji as $p): ?>
-            <tr>
+            <tr>   
                 <td class="text-center"><?php echo $no++ ?></td>
                 <td class="text-center"><?php echo $p->potongan ?></td>
                 <td class="text-center">Rp. <?php echo number_format($p -> jml_potongan,0,',','.') ?></td>
